@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Prototype.Mvvm.Forms</id>
+    <title>Prototype MVVM for Xamarin.Forms</title>
+    <version>1.0.0</version>
+    <authors>Rob Hedgpeth</authors>
+    <owners>Couchbase Labs</owners>
+    <projectUrl>https://github.com/couchbaselabs/Prototype.Mvvm</projectUrl>
+    <!--
+    <iconUrl>logo.png</iconUrl>
+    -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+        A simple prototyping MVVM library supporting Xamarin.Forms.
+    </description>
+    <copyright>Copyright 2019</copyright>
+    <tags>mvvm mobile netcore xamarin ios android windows linux mac osx nosql</tags>
+    <language>en-US</language>
+    <license type="expression">Apache-2.0</license>
+    <releaseNotes>Initial release!</releaseNotes>
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+        <dependency id="Xamarin.Forms" version="3.6.0.344457" />
+        <dependency id="Prototype.Mvvm" version="1.0.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file target="lib\netstandard2.0\" src="..\..\bin\Release\netstandard2.0\Prototype.Mvvm.Forms.dll" />
+    <file target="lib\netstandard2.0\" src="..\..\bin\Release\netstandard2.0\Prototype.Mvvm.Forms.pdb" />
+    <file target="lib\netstandard2.0\" src="..\..\bin\Release\netstandard2.0\Prototype.Mvvm.Forms.deps.json" />
+  </files>
+</package>

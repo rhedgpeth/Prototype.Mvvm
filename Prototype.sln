@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.Mvvm", "Prototype.Mvvm\Prototype.Mvvm.csproj", "{2CE557C4-11F7-481B-A27C-945B56934CD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.Mvvm.Forms", "Prototype.Mvvm.Forms\Prototype.Mvvm.Forms.csproj", "{25389B25-4C9A-4EAD-9279-2463D7DBF3E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CE557C4-11F7-481B-A27C-945B56934CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE557C4-11F7-481B-A27C-945B56934CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE557C4-11F7-481B-A27C-945B56934CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE557C4-11F7-481B-A27C-945B56934CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25389B25-4C9A-4EAD-9279-2463D7DBF3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25389B25-4C9A-4EAD-9279-2463D7DBF3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25389B25-4C9A-4EAD-9279-2463D7DBF3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25389B25-4C9A-4EAD-9279-2463D7DBF3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
